@@ -1,9 +1,15 @@
-
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
-// Variables
-@import "variables";
-
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+ body{
+   font-size: 22px;
+   font-weight: normal;
+ }
+
+ nav.navbar.navbar-expand-lg{
+   margin-bottom: -20px;
+ }
+
+.index-title {
+  margin-left: 0;
+  font-size: 20px;
+}
